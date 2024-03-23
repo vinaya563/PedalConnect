@@ -1,4 +1,4 @@
-###Deploying Pedal Connect Website on GitHub Pages:
+### Deploying Pedal Connect Website on GitHub Pages:
 
 1) Create a GitHub repository for your project.
 2) Push your project code to this repository.
