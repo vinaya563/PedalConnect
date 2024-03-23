@@ -38,7 +38,7 @@ const auth = firebase.auth()
 const database = firebase.database()
 
 // Set up our register function
-function register() {
+function apply() {
     // Get all our input fields
     email = document.getElementById('email').value
     password = document.getElementById('password').value
@@ -48,12 +48,12 @@ function register() {
 
     // Validate input fields
     if (validate_email(email) == false || validate_password(password) == false) {
-        alert('Email or Password is Outta Line!!')
+        alert('Email or Password is incorrect!!')
         return
         // Don't continue running the code
     }
     if (validate_field(full_name) == false || validate_field(why_do_you) == false ) {
-        alert('One or More Extra Fields is Outta Line!!')
+        alert('One or More Extra Fields is incorrect!!')
         return
     }
 
