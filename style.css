@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: white;
+}
+.color{
+    color: white;
+    font-size: large;
+    font-family:'Verdana, ';
+    font-weight: 700;
+    
+}
+.h:hover{
+    color: aquamarine;
+}
+.fonts{
+font-size:xx-large;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.button1{
+    color: black;
+}
+.hov:hover{
+    transform: scale(1.15);
+}
+.font1{
+    font-weight: 900;
+    font-family:'Bubblegum Sans';
+    font-size: 18px;
+}
+.strong{
+    font-weight: 700;
+}
+.font2 {
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.font3{
+    font-weight: 900;
+        font-family: 'Bubblegum Sans';
+        font-size: 35px;
+        color: aquamarine;
+}
+.bg{
+    background-color:#EDEADE;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(90deg);
+}
+.black{
+    color:black;
+}
