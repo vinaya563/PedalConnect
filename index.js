@@ -79,7 +79,7 @@ function apply() {
             database_ref.child('users/' + user.uid).set(user_data)
 
             // DOne
-            alert('User Created!!')
+            alert('Application submitted!!')
         })
         .catch(function (error) {
             // Firebase will use this to alert of its errors
